@@ -1,5 +1,8 @@
 section {
   height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #section-one {
@@ -8,6 +11,7 @@ section {
 
 #section-two {
   background-color: #192a56;
+  flex-direction: column;
 }
 
 #section-three {
@@ -16,4 +20,27 @@ section {
 
 #section-four {
   background-color: #353b48;
+}
+
+.smaller-images {
+  width: 600px;
+  padding: 1vw;
+}
+
+p {
+  width: 600px;
+  text-align: center;
+  padding: 1vw;
+  font-family: sans-serif;
+  color: #BBB;
+}
+
+#large-image {
+  width: 800px;
+}
+
+blockquote {
+  color: #EEE;
+  font-size: 1.5em;
+  text-align: center;
 }
