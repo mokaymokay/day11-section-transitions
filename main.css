@@ -1,0 +1,19 @@
+section {
+  height: 800px;
+}
+
+#section-one {
+  background-color: #273c75;
+}
+
+#section-two {
+  background-color: #192a56;
+}
+
+#section-three {
+  background-color: #2f3640;
+}
+
+#section-four {
+  background-color: #353b48;
+}
