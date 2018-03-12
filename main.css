@@ -22,9 +22,13 @@ section {
   background-color: #353b48;
 }
 
-.smaller-images {
+#train, #hedwig {
   width: 600px;
   padding: 1vw;
+}
+
+#gloucester {
+  width: 800px;
 }
 
 p {
@@ -35,12 +39,12 @@ p {
   color: #BBB;
 }
 
-#large-image {
-  width: 800px;
-}
-
 blockquote {
   color: #EEE;
   font-size: 1.5em;
   text-align: center;
+}
+
+.hidden {
+  opacity: 0;
 }
