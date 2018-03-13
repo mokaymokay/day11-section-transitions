@@ -1,39 +1,31 @@
+function scroll(pixels, section) {
+  if (document.documentElement.scrollTop > pixels) {
+    section.className = 'show';
+  } else {
+    section.className = 'hide hidden';
+  }
+}
+
 const sectionOne = document.getElementById('one');
 
 window.addEventListener('scroll', function() {
-    if (document.documentElement.scrollTop > 0) {
-      sectionOne.className = 'show';
-    } else {
-      sectionOne.className = 'hide hidden';
-    }
+    scroll(0, sectionOne);
 });
 
 const sectionTwo = document.getElementById('two');
 
 window.addEventListener('scroll', function() {
-    if (document.documentElement.scrollTop > 800) {
-      sectionTwo.className = 'show';
-    } else {
-      sectionTwo.className = 'hide hidden';
-    }
+    scroll(800, sectionTwo);
 });
 
 const sectionThree = document.getElementById('three');
 
 window.addEventListener('scroll', function() {
-      if (document.documentElement.scrollTop > 1600) {
-        sectionThree.className = 'show';
-      } else {
-        sectionThree.className = 'hide hidden';
-      }
+    scroll(1600, sectionThree);
 });
 
 const sectionFour = document.getElementById('four');
 
 window.addEventListener('scroll', function() {
-    if (document.documentElement.scrollTop > 2400) {
-      sectionFour.className = 'show';
-    } else {
-      sectionFour.className = 'hide hidden';
-    }
+  scroll(2400, sectionFour);
 });
