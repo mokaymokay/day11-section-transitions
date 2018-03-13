@@ -1,31 +1,31 @@
-const sectionOne = document.getElementsByClassName('one');
+const sectionOne = document.getElementById('one');
 
 window.addEventListener('scroll', function() {
-    for (var i = 0; i < sectionOne.length; i++) {
-      if (document.documentElement.scrollTop > 0) {
-        sectionOne[i].className = 'show';
-      }
+    if (document.documentElement.scrollTop > 0) {
+      sectionOne.className = 'show';
+    } else {
+      sectionOne.className = 'hide hidden';
     }
 });
 
-const sectionTwo = document.getElementsByClassName('two');
+const sectionTwo = document.getElementById('two');
 
 window.addEventListener('scroll', function() {
-    for (var i = 0; i < sectionTwo.length; i++) {
-      if (document.documentElement.scrollTop > 800) {
-        sectionTwo[i].className = 'show';
-      }
+    if (document.documentElement.scrollTop > 800) {
+      sectionTwo.className = 'show';
+    } else {
+      sectionTwo.className = 'hide hidden';
     }
 });
 
-const sectionThree = document.getElementsByClassName('three');
+const sectionThree = document.getElementById('three');
 
 window.addEventListener('scroll', function() {
-    for (var i = 0; i < sectionThree.length; i++) {
       if (document.documentElement.scrollTop > 1600) {
-        sectionThree[i].className = 'show';
+        sectionThree.className = 'show';
+      } else {
+        sectionThree.className = 'hide hidden';
       }
-    }
 });
 
 const sectionFour = document.getElementById('four');
