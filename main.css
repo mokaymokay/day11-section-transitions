@@ -1,27 +1,20 @@
-section {
+/* containers */
+div {
   height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#section-one {
-  background-color: #273c75;
-}
+#two {  flex-direction: column; }
 
-#section-two {
-  background-color: #192a56;
-  flex-direction: column;
-}
+/* background colors */
+#section-one { background-color: #273c75; }
+#section-two { background-color: #192a56; }
+#section-three { background-color: #2f3640; }
+#section-four { background-color: #353b48; }
 
-#section-three {
-  background-color: #2f3640;
-}
-
-#section-four {
-  background-color: #353b48;
-}
-
+/* images */
 #train, #hedwig {
   width: 600px;
   padding: 1vw;
@@ -31,6 +24,7 @@ section {
   width: 800px;
 }
 
+/* text */
 p {
   width: 600px;
   text-align: center;
@@ -45,6 +39,7 @@ blockquote {
   text-align: center;
 }
 
+/* animations */
 .hidden {
   opacity: 0;
 }

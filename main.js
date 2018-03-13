@@ -12,8 +12,8 @@ function scroll(pixels, section) {
 }
 
 window.addEventListener('scroll', function() {
-    scroll(0, sectionOne);
-    scroll(800, sectionTwo);
-    scroll(1600, sectionThree);
-    scroll(2400, sectionFour);
+  scroll(0, sectionOne);
+  scroll(800, sectionTwo);
+  scroll(1600, sectionThree);
+  scroll(2400, sectionFour);
 });
