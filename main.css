@@ -48,3 +48,29 @@ blockquote {
 .hidden {
   opacity: 0;
 }
+
+.show {
+	animation: show 600ms;
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.hide {
+	animation: hide 600ms;
+}
+
+@keyframes hide {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
